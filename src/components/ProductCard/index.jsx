@@ -5,14 +5,14 @@ import sendToTop from "../../util/sendToTop";
 
 export default function ProductCard({ id, title, price, image }) {
 
-    const origin = window.location.origin
+
 
     const navigate = useNavigate();
 
     return (
         <Card className = "product-card">
             <div className="img-container">
-                <Card.Img variant="top" src={`${origin}/${image}`} />
+                <Card.Img variant="top" src={`${image}`} />
             </div>
             <Card.Body>
                 <Card.Title> {title} </Card.Title>
