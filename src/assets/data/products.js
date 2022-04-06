@@ -44,16 +44,16 @@ const products = [{
     }
 },
 {
-    "title": "Calça Moletom Jogger Fitness Feminina Cinza Com Preto",
+    "title": "Calça Moletom Jogger Fitness Feminina Cinza",
     "price": 39.99,
     "imageUrl": "https://imgur.com/lDXiYDA.jpg",
-    "description": "Calça fitness feminina, confeccionada em Moletom. Cós com elástico embutido e cordão para ajuste. Bolso frontal. Modelagem com caimento ajustado. Barra e cintura em ribana.",
+    "description": "Calça fitness feminina, confeccionada em Moletom. Cós com elástico embutido e cordão para ajuste. Bolso frontal. Modelagem com caimento ajustado",
     "category": {
         "id": 4
     }
 },
 {
-    "title": "Camiseta Desenho Animado ocasional", 
+    "title": "Camiseta Desenho Animado ocasional",
     "price": 37.95,
     "imageUrl": "https://imgur.com/8L3ANsE.jpg",
     "description": "Azul Empoeirado, 95% Algodão, 5% Elastano, Roupa Árabe",
@@ -125,7 +125,7 @@ const products = [{
     }
 },
 {
-    "title": "Slip On Santa Lolla Caixa Alta Feminino - Preto",
+    "title": "Slip On Santa Lolla Caixa Alta Feminino",
     "price": 73.99,
     "imageUrl": "https://imgur.com/AEi419z.jpg",
     "description": "Aposte no esitlo do Slip On Santa Lolla Caixa Alta Feminino garante estilo e praticidade, clássico que não sai de moda e nem dos pés de toda mulher moderna. O modelo combina com as mais diferentes peças, traz conforto e mantém a elegância.",
@@ -143,13 +143,12 @@ const products = [{
     }
 },
 {
-    "title": "Armação Óculos de Grau Forum F6015 Masculina",
+    "title": "Armação Óculos de Grau Forum F6015",
     "price": 54.00,
     "imageUrl": "https://imgur.com/cddSkzz.jpg",
     "description": "Modelo unissex em formato rodondo dá destaque para a montagem diferenciada pela leveza e cores atuais.",
     "category": {
         "id": 3
     }
-}
-]
+}]
 export default products;

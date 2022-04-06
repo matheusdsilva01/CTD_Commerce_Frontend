@@ -9,9 +9,12 @@ const respClient = axios.create({
 async function checkDatabase() {
   let response = await respClient.get("/products")
   if (response.data.length === 0) {
-    await respClient.post("/products", products)
+    respClient.post("/products/list", products).then(() => {
+      window.location.reload();
+    }).then((e)=>{
+      console.log(e)
+    })
   }
-  window.location.reload()
 }
 
 checkDatabase();
