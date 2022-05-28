@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const respClient = axios.create({
-  baseURL: 'https://ctd-e-commerce.herokuapp.com/'
+  baseURL: 'https://ctdcommercebackend-production.up.railway.app/'
 })
 
 export default respClient;
