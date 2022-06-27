@@ -11,7 +11,6 @@ import Swal from "sweetalert2";
 export default function CartMobile() {
 
     const { productsInCart, removeProduct, clearProducts, saveProduct } = useContext(CartContext);
-    const origin = window.location.origin
     const navigate = useNavigate();
 
 
@@ -45,7 +44,7 @@ export default function CartMobile() {
                         <div className="mobile-card " key={id}>
                             <div className="mobile-cart-content">
                                 <div className="mobile-img-holder">
-                                    <img src={`${origin}/${imageUrl}`} alt={title} />
+                                    <img src={`${imageUrl}`} alt={title} />
                                 </div>
                                 <div className="mobile-content-box">
                                     <div className="mobile-title">
@@ -60,7 +59,7 @@ export default function CartMobile() {
                                             </div>
                                         </div>
                                         <div className="category-box">
-                                            Categoria: {category.name}
+                                            {/* Categoria: {category.name} */}
                                          </div>   
                                     </div>
                                     <div className="bottom-box">

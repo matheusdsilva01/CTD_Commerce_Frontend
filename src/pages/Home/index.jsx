@@ -22,17 +22,17 @@ export default function Home() {
 
     const findProducts = useCallback(async () => {
         try {
-            let response = await restClient.get("/products/page/0/limit/3");
-            setProductsPage1(response.data.content);
+            let response = await restClient.get("/products?_page=1&_limit=3");
+            setProductsPage1(response.data);
 
-            response = await restClient.get("/products/page/1/limit/3");
-            setProductsPage2(response.data.content);
+            response = await restClient.get("/products?_page=2&_limit=3");
+            setProductsPage2(response.data);
 
-            response = await restClient.get("/products/page/2/limit/3");
-            setProductsPage3(response.data.content);
+            response = await restClient.get("/products?_page=3&_limit=3");
+            setProductsPage3(response.data);
 
-            response = await restClient.get("/products/page/3/limit/3");
-            setProductsPage4(response.data.content);
+            response = await restClient.get("/products?_page=4&_limit=3");
+            setProductsPage4(response.data);
         } catch {
             Swal.fire({
                 title: "Ops! ocorreu um erro.",

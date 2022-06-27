@@ -30,12 +30,12 @@ export default function ProductDetails() {
 
 
     const getProduct = useCallback(async () => {
-        let response = await restClient.get(`/products/${productId}`)
-        const product = response.data;
+        let response = await restClient.get(`/products?id=${productId}`)
+        const product = response.data[0];
         setProduct(product);
 
         if (product) {
-            response = await restClient.get(`/category/${product.category.id}`)
+            response = await restClient.get(`/products?category_id=${product.category_id}`)
             const category = response.data;
             setCurrentCategory(category);
         }
@@ -118,7 +118,7 @@ export default function ProductDetails() {
                 <>
                     <SecTittle>Outros produtos da mesma categoria</SecTittle>
                     <CardGroup className="list-unstyled">
-                        {currentCategory.products.map(({ id, title, price, imageUrl }) => {
+                        {currentCategory.map(({ id, title, price, imageUrl }) => {
                             return (
                                 <li className="grid-item" key={id} >
                                     <ProductCard

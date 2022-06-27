@@ -21,8 +21,8 @@ export default function Products() {
         let response;
         let data;
         if (currentCategory !== null) {
-            response = await restClient.get(`/category/${currentCategory}`);
-            data = response.data.products;
+            response = await restClient.get(`/products?category_id=${currentCategory}`);
+            data = response.data;
         } else {
             response = await restClient.get("/products")
             data = response.data;

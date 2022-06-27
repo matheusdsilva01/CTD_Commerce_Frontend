@@ -1,0 +1,142 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Monitor Dell Gaming Curvo 24” S2422HG",
+            "price": 2782,
+            "description": "Monitor gaming curvo Full HD de 23,6 com taxa de atualização rápida de 165 Hz e tempo de resposta de 1 ms (MPRT) para proporcionar uma experiência de jogo tranquila e imersiva.",
+            "imageUrl": "https://i.imgur.com/mGwjw9H.jpg",
+            "category_id": "1"
+        },
+        {
+            "id": 2,
+            "title": "Alianças Casamento Linha Classic",
+            "price": 799,
+            "description": "Ouro 3mm Quadrada Polida.",
+            "imageUrl": "https://imgur.com/6pwLzhY.jpg",
+            "category_id": "2"
+        },
+        {
+            "id": 3,
+            "title": "Cordão Carta ocasional Suéter",
+            "price": 59.99,
+            "description": "Cordão de carta ocasional suéter de alta qualidade com tecido de algodão e poliéster.",
+            "imageUrl": "https://imgur.com/1UZ5217.jpg",
+            "category_id": "3"
+        },
+        {
+            "id": 4,
+            "title": "Calça Feminina Jogger Preto",
+            "price": 299,
+            "description": "Calça feminina em bengaline modelo jogger. Cós com elástico e passador para cordão de amarração, barra com elástico.",
+            "imageUrl": "https://imgur.com/tPJsnPn.jpg",
+            "category_id": "4"
+        },
+        {
+            "id": 5,
+            "title": "Calça Moletom Jogger Fitness Feminina Cinza",
+            "price": 39.99,
+            "description": "Calça fitness feminina, confeccionada em Moletom. Cós com elástico embutido e cordão para ajuste. Bolso frontal. Modelagem com caimento ajustado",
+            "imageUrl": "https://imgur.com/lDXiYDA.jpg",
+            "category_id": "4"
+        },
+        {
+            "id": 6,
+            "title": "Camiseta Desenho Animado ocasional",
+            "price": 37.95,
+            "description": "Azul Empoeirado, 95% Algodão, 5% Elastano, Roupa Árabe",
+            "imageUrl": "https://imgur.com/8L3ANsE.jpg",
+            "category_id": "3"
+        },
+        {
+            "id": 7,
+            "title": "Mouse Sem Fio Gamer Razer Naga Pro 20 Botões",
+            "price": 1579.9,
+            "description": "Razer Naga Pro, um mouse para jogos modular sem fio com três placas laterais intercambiáveis, permitindo que você tenha o layout de botões de que precisa para se tornar mestre em vários gêneros",
+            "imageUrl": "https://imgur.com/kg6FwN7.jpg",
+            "category_id": "1"
+        },
+        {
+            "id": 8,
+            "title": "Headset Gamer RGB Blackfire Preto",
+            "price": 115.9,
+            "description": "Comprimento: 1,9m têxtil trançado Conector: 2X P2 + USB + adaptador, Resposta Frequência: 20Hz~20Khz, Pesa apenas 450 g, Incluso: Adaptador P3 (Incluso).",
+            "imageUrl": "https://imgur.com/UbtbyN4.jpg",
+            "category_id": "1"
+        },
+        {
+            "id": 9,
+            "title": "Choker Elos Entrelaçados",
+            "price": 48289,
+            "description": "Choker elos entrelaçados em ouro amarelo 18k, comprimento: 33cm + 11cm extensor",
+            "imageUrl": "https://imgur.com/2eUT0Jb.jpg",
+            "category_id": "2"
+        },
+        {
+            "id": 10,
+            "title": "Conjunto Ponto de Luz Coração",
+            "price": 1912.42,
+            "description": "Os conjuntos de de Joias em ouro (anel, brincos e colar) é uma ótima pedida, completam espetacularmente qualquer look. Adquira já o seu conjunto de joias de prata com o brilho do ponto de luz!",
+            "imageUrl": "https://imgur.com/dFZ1cAe.jpg",
+            "category_id": "2"
+        },
+        {
+            "id": 11,
+            "title": "Colar Life Masculino Aço Grafite Liso",
+            "price": 380,
+            "description": "Colar Life Masculino, confeccionado em aço grafite com pigente liso.",
+            "imageUrl": "https://imgur.com/MexHzIQ.jpg",
+            "category_id": "2"
+        },
+        {
+            "id": 12,
+            "title": "Pulseira Life Infinito Moments Prata 925",
+            "price": 301,
+            "description": "Pulseira Life Infinito Moments, confeccionada em prata 925.",
+            "imageUrl": "https://imgur.com/Z0jhYNI.jpg",
+            "category_id": "2"
+        },
+        {
+            "id": 13,
+            "title": "Sandália Vizzano Salto Médio Feminina",
+            "price": 59.49,
+            "description": "Marque presença fashion nessa estação com a Sandália Vizzano Salto Médio Feminina, perfeita para todos os momentos. Confeccionada em material sintético, tem solado de borracha, salto médio grosso e fivela com ajuste regulável no calcanhar.",
+            "imageUrl": "https://imgur.com/2dZjFg4.jpg",
+            "category_id": "4"
+        },
+        {
+            "id": 14,
+            "title": "Slip On Santa Lolla Caixa Alta Feminino",
+            "price": 73.99,
+            "description": "Aposte no esitlo do Slip On Santa Lolla Caixa Alta Feminino garante estilo e praticidade, clássico que não sai de moda e nem dos pés de toda mulher moderna. O modelo combina com as mais diferentes peças, traz conforto e mantém a elegância.",
+            "imageUrl": "https://imgur.com/AEi419z.jpg",
+            "category_id": "4"
+        },
+        {
+            "id": 15,
+            "title": "Camiseta DGK Apollo Masculina - Preto",
+            "price": 119.99,
+            "description": "Inspirada na ida do homem até a lua, a Camiseta DGK Apollo Masculina se inspira nessa imagem para a estampa de Apolo comendo pizza em solo lunar.",
+            "imageUrl": "https://imgur.com/mLNDs9r.jpg",
+            "category_id": "3"
+        }
+    ],
+    "category": [
+        {
+            "id": 1,
+            "name": "Joalheria"
+        },
+        {
+            "id": 2,
+            "name": "Eletrônicos"
+        },
+        {
+            "id": 3,
+            "name": "Roupas Masculinas"
+        },
+        {
+            "id": 4,
+            "name": "Roupas Femininas"
+        }
+    ]
+}
